@@ -1,0 +1,2 @@
+minimum chi2 = 0.004855
+at best parameters = 4.001032,9.997477

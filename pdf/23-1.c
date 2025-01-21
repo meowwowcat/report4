@@ -65,7 +65,7 @@ int main(void)
                   best_ay = para_ay;
                   best_v = para_v;
                   best_y0 = para_y0;
-               /*   printf("%d,%f,%f,%f,%f\n",try,min_chi2,best_ay,best_v,best_y0);*/
+                  printf("%d,%f,%f,%f,%f\n",try,min_chi2,best_ay,best_v,best_y0);
           }
   }
   printf("minimum chi2 = %f\n",min_chi2);

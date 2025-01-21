@@ -1,0 +1,5 @@
+chi2_0 = 31869.998047
+reach minimum point
+minimum chi2 = 0.000015
+at best parameters = 4.000144,9.999827
+search precision = 0.000050,0.000050
