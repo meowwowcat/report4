@@ -74,7 +74,7 @@ int main(void)
              para_x0 = (float)rand() / RAND_MAX * (2*ini_x0 * RANGE) + ini_x0 *(1-RANGE);
            chi2 = calc_chi2(t,x,s,para_v,para_x0);
            if(chi2<min_chi2+1){
-/*                  printf("%f,%f\n",para_v,para_x0); */
+                  printf("%f,%f\n",para_v,para_x0);
                   ncount++; 
                    if(para_v<min_v)min_v = para_v;
                    if(para_v>max_v)max_v=para_v;
