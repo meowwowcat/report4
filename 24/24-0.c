@@ -65,7 +65,7 @@ int main(void)
 
    /****************search error region*************************/
    int ncount = 0;
-   float min_v = 1e10,max_v = 1e-10,min_x0=1e10,max_x0=1e-10,err_v,err_x0;
+   float min_v = 1e10,max_v = -1e10,min_x0=1e10,max_x0=-1e10,err_v,err_x0;
 
    for(try=0;ncount<entry;try++){
 /*           para_v = (float)rand() / RAND_MAX * (2*ini_v*RANGE) + ini_v * (1-RANGE);*/
